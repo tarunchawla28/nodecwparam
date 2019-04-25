@@ -18,6 +18,16 @@
           "containerPort": 3008
         }
       ],
+      "secrets": [
+        {
+          "valueFrom": "akey",
+          "name": "acckey"
+        },
+        {
+          "valueFrom": "arn:aws:ssm:us-east-1:697506678915:parameter/skey",
+          "name": "seckey"
+        }
+      ],
       "cpu": 0,
       "image": "697506678915.dkr.ecr.us-east-1.amazonaws.com/paramtestnjcw3008:1.0",
       "name": "containerparam4"
