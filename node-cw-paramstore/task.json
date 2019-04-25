@@ -1,0 +1,32 @@
+{
+  "family": "tdn4",
+  "executionRoleArn": "arn:aws:iam::697506678915:role/ecsTaskExecutionRole",
+  "containerDefinitions": [
+    {
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/tdn4",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      },
+      "portMappings": [
+        {
+          "hostPort": 3008,
+          "protocol": "tcp",
+          "containerPort": 3008
+        }
+      ],
+      "cpu": 0,
+      "image": "697506678915.dkr.ecr.us-east-1.amazonaws.com/paramtestnjcw3008:1.0",
+      "name": "containerparam4"
+    }
+  ],
+  "memory": "512",
+  "requiresCompatibilities": [
+    "FARGATE"
+  ],
+  "networkMode": "awsvpc",
+  "cpu": "256"
+}
