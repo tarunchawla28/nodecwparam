@@ -1,4 +1,5 @@
 {
+  "family": "tdn4",
   "executionRoleArn": "arn:aws:iam::697506678915:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
@@ -38,7 +39,6 @@
     "FARGATE"
   ],
   "taskDefinitionArn": "arn:aws:ecs:us-east-1:697506678915:task-definition/tdn4:2",
-  "family": "tdn4",
   "requiresCompatibilities": [
     "FARGATE"
   ],
