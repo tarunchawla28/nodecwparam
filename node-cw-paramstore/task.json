@@ -34,11 +34,9 @@
   ],
   "memory": "512",
   "taskRoleArn": "arn:aws:iam::697506678915:role/ecsTaskExecutionRole",
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:697506678915:task-definition/tdn4:2",
   "requiresCompatibilities": [
     "FARGATE"
   ],
   "networkMode": "awsvpc",
-  "cpu": "256",
-  "revision": 2
+  "cpu": "256"
 }
