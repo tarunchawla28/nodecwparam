@@ -28,7 +28,7 @@
           "name": "seckey"
         }
       ],
-      "image": "697506678915.dkr.ecr.us-east-1.amazonaws.com/paramtestnjcw3008:latest",
+      "image": "697506678915.dkr.ecr.us-east-1.amazonaws.com/paramtestnjcw3008:1.0",
       "name": "containerparam4"
     }
   ],
