@@ -44,5 +44,5 @@
   ],
   "networkMode": "awsvpc",
   "cpu": "256",
-  "revision": 2,
+  "revision": 2
 }
